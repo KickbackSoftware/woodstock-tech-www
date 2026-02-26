@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: carpenterlight --default, carpenterdark --prefersdark;
+}
+
+@plugin "daisyui/theme" {
+  name: "carpenterdark";
+  default: false;
+  prefersdark: true;
+  color-scheme: "dark";
+
+
+  --color-base-100: #2C1A0E;
+  --color-base-200: #3D3530;
+  --color-base-300: #4A3E38;
+  --color-base-content: #F2E8D9;
+
+
+  --color-primary: #C9632A;
+  --color-primary-content: #FAF6EF;
+
+
+  --color-secondary: #E8874A;
+  --color-secondary-content: #2C1A0E;
+
+  --color-accent: #8B7355;
+  --color-accent-content: #FAF6EF;
+
+
+  --color-neutral: #352A24;
+  --color-neutral-content: #E8D5B7;
+
+
+  --color-info: #3B82C4;
+  --color-info-content: #F0F7FF;
+
+  --color-success: #4A7C59;
+  --color-success-content: #F0FFF4;
+
+  --color-warning: #C9632A;
+  --color-warning-content: #2C1A0E;
+
+  --color-error: #B84030;
+  --color-error-content: #FFF0EE;
+
+  --radius-selector: 0.25rem;
+  --radius-field: 0.375rem;
+  --radius-box: 0.5rem;
+
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+@utility btn {
+  @apply font-mono;
+  @apply text-xs;
+  @apply tracking-widest;
+  @apply uppercase;
+}
+

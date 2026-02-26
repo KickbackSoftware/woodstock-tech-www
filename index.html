@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT Specialist | Software | Automation | AI |</title>
+  <link href="/src/style.css" rel="stylesheet">
+  <link rel="icon" type="image/svg" href="/ico.svg">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=IBM+Plex+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+    rel="stylesheet" />
+</head>
+<style>
+  .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-mono {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+</style>
+
+<body>
+  <nav class="navbar sticky px-6 top-0 backdrop-blur-xs border-b-base-300 border-b-1">
+    <div class="navbar-start gap-4 font-display">
+      <!-- Mobile Device Drop Down -->
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </div>
+        <ul tabindex="-1"
+          class="menu menu-lg dropdown-content bg-base-300 font-mono rounded-box z-1 mt-3 w-52 p-2 shadow">
+          <li><a>IT</a></li>
+          <li><a>Automation</a></li>
+          <li><a>Software</a></li>
+          <li><a>AI</a></li>
+        </ul>
+      </div>
+      <!-- Large Screen Logo -->
+      <div class="hidden md:flex">
+        <a class="text-primary-content text-xl tracking-tight font-bold" href="/">Woodstock<span
+            class="text-primary">.</span>tech</a>
+      </div>
+    </div>
+    <div class="navbar-center tracking-widest font-mono gap-8">
+      <a class="link link-hover hover:text-primary">AI</a>
+      <a class="link link-hover hover:text-primary">IT</a>
+      <a class="link link-hover hover:text-primary">Automation</a>
+      <a class="link link-hover hover:text-primary">Software</a>
+    </div>
+
+    <div class="navbar-end">
+      <!-- Small Screen Logo -->
+      <div class="md:hidden">
+        <a class="text-primary-content text-xl tracking-tight font-bold" href="/">Woodstock<span
+            class="text-primary">.</span>tech</a>
+      </div>
+      <!-- Large Screen CTA-->
+      <a class="btn hidden md:flex btn-primary">
+        Contact Us
+      </a>
+    </div>
+  </nav>
+  <!-- Landing Hero -->
+  <div class="hero min-h-screen" style="
+    background-image:
+      linear-gradient(var(--color-base-300) 0px, transparent 1px),
+      linear-gradient(90deg, var(--color-base-300) 0px, transparent 1px);
+    background-size: 80px 80px;
+  ">
+    <div class="hero-overlay bg-transparent"></div>
+    <div class="hero-content flex-col md:flex-row-reverse">
+      <div class="max-w-lg">
+        <h1 class="mb-5 text-5xl font-bold font-display tracking-tight">Technology, <br> <span class="italic text-secondary">hand made</span> <br> with care.</h1>
+        <p class="mb-5 text-neutral-content">
+          Your technology partner at every stage — from first office setup and network installs to custom automations and software built around your business.
+        </p>
+        <button class="btn btn-primary">Book a service call</button>
+        <button class="btn btn-neutral">View Services</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
